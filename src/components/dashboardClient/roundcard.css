@@ -1,0 +1,34 @@
+.roundcardfile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2%;
+  width: 250px;
+  height: 250px;
+  text-align: center !important;
+}
+
+/* ---------------------------------------cardimage-------------------------------- */
+.media {
+  height: 180px;
+  border: 4px;
+  width: 180px;
+  border-radius: 50%;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 445px) {
+  .media {
+    height: 80px;
+
+    width: 80px;
+  }
+  .roundcardfile {
+    height: 130px;
+    width: 130px;
+  }
+}

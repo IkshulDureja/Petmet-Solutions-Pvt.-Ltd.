@@ -1,0 +1,57 @@
+.dishImg {
+  justify-content: center;
+  height: 100%;
+  border-radius: 0px;
+  border: none;
+}
+
+.outCard {
+  width: 86%;
+  margin-left: 7%;
+  max-height: 400.13px;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.crdImg {
+  padding: 0% 20% 4% 20%;
+}
+
+.row-btn {
+  color: #36a9cc;
+  border: #36a9cc solid 1px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.acprize {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ff5352;
+}
+
+.cprize {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+}
+
+.iconspan {
+  position: absolute;
+  top: 2%;
+  left: 90%;
+  color: #ff5352;
+  font-size: larger;
+}
+
+.btn-bl {
+  color: #ffffff;
+  background-color: #36a9cc;
+  border-radius: 3px;
+}

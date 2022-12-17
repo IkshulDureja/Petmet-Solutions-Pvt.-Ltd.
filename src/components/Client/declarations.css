@@ -1,0 +1,22 @@
+.firstmodalbody {
+  padding: 10px;
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.firstmodalbody > p {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.buttonformodal {
+  background-color: #ff5352 !important;
+  border-radius: 4px !important;
+}
+.buttonclosemodal {
+  background-color: #36a9cc !important;
+  border-radius: 4px !important;
+}

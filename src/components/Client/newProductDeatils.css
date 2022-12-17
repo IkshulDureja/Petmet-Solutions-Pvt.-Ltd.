@@ -1,0 +1,217 @@
+body {
+  background-color: white !important;
+  overflow-x: hidden;
+}
+
+.productDetails_title {
+  padding-top: 80.25px;
+}
+.productDetails_title > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #2b3b47;
+}
+.productDetails_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 51.4px;
+  max-width: 1500px;
+  justify-content: center;
+  margin-top: 145.88px;
+  /* height: 486.98px; */
+}
+
+.productDetails_insideflex1 > img {
+  width: 145.64px;
+  margin-right: 34px;
+  height: 145.66px;
+
+  /* background: url(.png); */
+  border: 1px solid #a6a6a6;
+  box-sizing: border-box;
+  filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.2));
+  border-radius: 2px 2px 0px 0px;
+}
+.productDetails_insideflex1 {
+  display: flex;
+  /* margin-left: 124.29px; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 359.38px;
+  height: 486.98px;
+  margin-right: 62.48px;
+  justify-content: center;
+}
+.productDetails_insideflex2 > img {
+  width: 376.66px;
+  height: 388.31px;
+
+  /* background: url(.png); */
+  filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.2));
+  border-radius: 2px 2px 0px 0px;
+}
+
+.productDetails_insideflex2 {
+  width: 376.66px;
+  height: 388.31px;
+  margin-right: 62.48px;
+}
+
+.productDetails_insideflex3 {
+  height: 466.3px;
+  max-width: 434.55px;
+  /* margin-right: 53.65px; */
+}
+.productDetails_insideflex3 > span > input {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #b5b5b5;
+  width: 68%;
+}
+.checkdeliver {
+  width: 315px;
+  height: 23px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.description {
+  max-width: 434.55px;
+  /* height: 124.45px; */
+  margin-bottom: 30.03px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  padding: 5px;
+  color: #000000;
+}
+.checkbutton {
+  border: 1px solid #b5b5b5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 115.36px;
+  height: 35.72px;
+  color: #b5b5b5;
+  background-color: transparent;
+}
+.cartbutton {
+  width: 405.62px;
+  height: 45.58px;
+
+  margin-top: 24.79px;
+  margin-bottom: 36.63px;
+  background: #36a9cc;
+  border-radius: 2px;
+}
+.productDetails_description_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 73px;
+}
+.productDetails_description_insideflex1 {
+  text-align: left;
+  max-width: 835.99px;
+  /* height: 372.88px; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.productdescriptiontitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.productDetails_description_insideflex1 > ul {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.ul {
+  list-style-type: circle;
+}
+.productDetails_description_insideflex2 {
+  width: 414.33px;
+  height: 414.33px;
+}
+.productDetails_description_insideflex2 > img {
+  width: 414.33px;
+  height: 414.33px;
+}
+
+@media only screen and (max-width: 1275px) {
+  .productDetails_insideflex1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 883px) {
+  .productDetails_insideflex3 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+  .productDetails_flex {
+    margin-top: 15.88px;
+  }
+  .description,
+  ul {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .productDetails_insideflex3 {
+    width: 329px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .cartbutton {
+    width: 309px;
+  }
+  .productDetails_insideflex2 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productDetails_title {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 694px) {
+  .productDetails_description_insideflex2 > img {
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+}

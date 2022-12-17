@@ -1,0 +1,51 @@
+.carouselanddetails {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10%;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.details {
+  margin-left: 50px;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #3d464d;
+}
+
+.openedproductname {
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+ul.b {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+.listb {
+  margin-right: 14.9%;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+.heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  font-weight: 500;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}

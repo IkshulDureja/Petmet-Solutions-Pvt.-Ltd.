@@ -1,0 +1,214 @@
+body {
+  justify-content: center;
+}
+.products_leftflex {
+  padding: 17.28px 20.54px;
+  justify-content: center;
+  margin-left: 47.25px;
+  height: 350px;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-top: 84px;
+}
+.products_rightflex {
+  max-width: 987.79px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+
+  flex-wrap: wrap;
+}
+.newapplyy {
+  color: #5a5a5a;
+  background-color: transparent;
+  border: 1px solid #5a5a5a;
+  justify-content: center;
+  width: 90px;
+}
+
+.products_rightflex_cardflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.showingresults {
+  text-align: center;
+  color: #000000;
+}
+
+.products_bothflex {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+}
+.yes {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #797979;
+}
+.products_leftflex > ul > li > input {
+  margin-right: 14.25px;
+}
+.newpagebutton {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  color: #797979;
+  background-color: #ffffff;
+  border: none;
+  outline: none !important;
+}
+.start_rightflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ddropdown {
+  width: 309.3px !important;
+  height: 34.61px !important;
+  background: #ffffff !important;
+  border: 0.5px solid #959595 !important;
+  box-sizing: border-box !important;
+  border-radius: 2px !important;
+}
+
+.ulofsort {
+  background: #ffffff !important;
+  border: 0.5px solid #959595 !important;
+  box-sizing: border-box !important;
+  border-radius: 2px !important;
+}
+.dogfoodtag {
+  width: 120px;
+  margin-left: 28.5px;
+  height: 23px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.start_rightflex_subcolumn {
+  justify-content: flex-end;
+  margin-left: auto;
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.pathontop {
+  margin-top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+button:focus {
+  outline: none !important;
+}
+button:active {
+  outline: none !important;
+}
+
+ul {
+  padding-inline-start: 10px !important;
+}
+
+@media only screen and (min-width: 1300px) {
+  .products_rightflex_cardflex {
+    justify-content: left;
+    width: 1060px;
+  }
+}
+
+@media only screen and (max-width: 819px) {
+  .products_leftflex {
+    display: none;
+  }
+  .ddropdown {
+    width: 100.3px !important;
+  }
+  .dogfoodtag {
+    display: none;
+  }
+  .bigscreensort {
+    display: none;
+  }
+  .filterbuttonflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .products_leftflexdisplay {
+    display: none;
+  }
+
+  .ulofsort {
+    width: 100.3px;
+    font-size: 12px;
+    justify-content: center;
+    padding-left: 3px;
+  }
+  /* .filterpopup {
+    width: 100.3px;
+
+    border: 0.3px solid black;
+    z-index: 100;
+  } */
+  ul {
+    padding-left: 3px;
+    z-index: 500;
+    font-size: 14px;
+  }
+  .newpagebutton {
+    font-size: 14px;
+    text-align: left;
+    justify-content: left;
+  }
+}
+
+@media only screen and (min-width: 819px) {
+  .shopproducts_filterbutton {
+    display: none;
+  }
+  .smallscreensort {
+    display: none;
+  }
+  .filterbuttonflex {
+    display: none;
+  }
+}
+
+/* a:hover {
+  text-decoration: none;
+} */
+
+a:link {
+  text-decoration: none !important;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.footer_img {
+    width: 60%;
+}
+
+.footer {
+    /*background-color:rgba(247, 247, 247, 0.884) ;*/
+    bottom: 0;
+    position: relative;
+    /*box-shadow: 17px -20px 60px -35px rgba(0,0,0,0.2);*/
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.footer_icon {
+    color: black;
+}
+
+.social {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.footer p,li {
+    color: #000000;
+}
+
+.facebook {
+    color: #4267B2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.instagram {
+    /* color: #d6249f; */
+    /* color: -webkit-linear-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+    color: #4267B2;
+}

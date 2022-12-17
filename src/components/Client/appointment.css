@@ -1,0 +1,166 @@
+body {
+  margin-top: 100px;
+  padding-top: 100px;
+  justify-content: center;
+}
+.apptitle {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #36a9cc;
+  margin-bottom: 20px;
+}
+.two_appflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 33.79px;
+}
+.left_appflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 2px;
+  padding: 10px;
+  height: 260px;
+  padding-top: 20px;
+}
+
+.left_appflex > button {
+  width: auto;
+  height: 37.38px;
+  margin: 5px;
+  border: 1px solid #36a9cc;
+  border-radius: 29px;
+  background-color: transparent;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #36a9cc;
+}
+
+.left_appflex > button:hover,
+.left_appflex > button:focus,
+.left_appflex > button:active {
+  color: #ffffff;
+  background-color: #36a9cc;
+  border: none;
+}
+
+.right_appflex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.apptile {
+  min-height: 179.31px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  padding-top: 1.5%;
+}
+
+.apptile_img {
+  width: 142.19px;
+  min-height: 142.19px;
+  margin: 5% 5%;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 990px)
+{
+  .apptile_img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.apptile_p {
+  margin-top: 23.95px;
+}
+.vetname {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #36a9cc;
+}
+.vettype {
+  width: 167px;
+  height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.vetaddress {
+  width: 286px;
+  height: 42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #b5b5b5;
+}
+.open {
+  width: 31px;
+  height: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #03a300;
+}
+.closevet {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #b5b5b5;
+}
+.bookappointment {
+  /* width: 223.23px; */
+  height: 35.31px;
+  background-color: transparent;
+  border: 1px solid #36a9cc;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #36a9cc;
+  margin-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.vetClinicName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #000000;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.clinicAddress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #b5b5b5;
+  padding-top: 0px;
+  margin-top: 0px;
+}

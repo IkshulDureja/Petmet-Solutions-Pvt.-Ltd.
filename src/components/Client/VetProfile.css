@@ -1,0 +1,179 @@
+.outer {
+    padding: 20px 8%;
+}
+
+.clinic_name {
+    color: #36a9cc;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.name {
+    text-align: center;
+}
+
+.vet_p_card {
+    border: 0.5px solid #CACACA;
+    border-radius: 2px;
+    padding: 20px;
+    max-height: 580px;
+}
+
+.card_img {
+    text-align: center;
+    padding-left: 12%;
+    height: 300px;
+}
+
+.card_img img {
+    width: 256.64px;
+    height: 256.64px;
+    border-radius: 6px;
+}
+
+.badge-des {
+    color: #ffffff;
+    background-color: #36a9cc;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.add_img {
+    width: 341.36px;
+    height: 580.8px;
+}
+
+.appointment {
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    width: 370px;
+}
+
+.drp_btn {
+    background: #E6E6E6;
+    border: 1px solid #BDBDBD;
+    margin-left: 35px;  
+}
+
+.drp_btn a {
+    color: #686868;
+}
+
+.drp_btn a:hover {
+    color: black;
+}
+
+.drp_field:focus, .input_field:active {
+    box-shadow: none;
+    border: none;
+}
+
+.input_field:focus, .input_field:active, .input_field::-moz-focus-outer {
+    border: none;
+}
+
+.input_field {
+    padding: 0px;
+    float: right;
+    text-align: right;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.blueButton {
+    background-color: #36A9CC;
+    border: 1px solid #36A9CC;
+    border-radius: 2px;
+    color: #ffffff;
+    margin: 35px 0px;
+    margin-right: 0px;
+    padding: 7px 120px;
+    
+}
+
+.address {
+    border: 1px solid #CECECE;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 170px;
+}
+
+.addressbtn {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.addadd {
+    background: #FFFFFF;
+    border: 1px dashed #949494;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: left;
+    color: #ff5352;
+}
+
+.sections {
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    border-radius: 2px;  
+    padding: 10px;    
+}
+
+.badges_new {
+    border: 1px solid #A9A9A9;
+    color: #A9A9A9;
+    box-sizing: border-box;
+    border-radius: 22px;
+    padding: 2px 8px;
+    /* margin-top: 13.5%; */
+    margin-bottom: 0px;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:500px) {
+    .badges_new {
+        position: absolute;
+        bottom: 20px;
+        margin-top: 10px;
+    }
+}
+
+.confirm_pend
+{
+    border: 1px solid #5843AA;
+    color: #5843AA;
+}
+
+.conf {
+    border: 1px solid #03A300;
+    background-color: #03A300;
+    border-radius: 0px;
+    color: #ffffff;
+    padding: 3px 15px;
+}
+
+.track {
+    border: 1px solid red;
+    color: red;
+}
+
+.help {
+    padding: 3px 12px;
+    font-size: larger;
+}
+
+.help:hover {
+    background-color: #A9A9A9;
+    color: #ffffff;
+    cursor: pointer;
+}

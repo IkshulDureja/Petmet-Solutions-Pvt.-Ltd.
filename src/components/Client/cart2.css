@@ -1,0 +1,135 @@
+body {
+  background-color: #e5e5e5 !important;
+}
+
+.cart2_outerflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 17.76px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cart2_leftflex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+.cart2_addresscard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 16px;
+
+  max-width: 733.29px;
+  background: #ffffff;
+
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+}
+.cart2_addaddress {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  height: 75.38px;
+  background: #ffffff;
+  border: 1px dashed #949494;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 733.29px;
+  padding: 27.7px;
+}
+.cart2_addaddresstext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ff5352;
+}
+
+.cart2_rightflex {
+  justify-content: flex-start;
+}
+
+.cart2_name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  width: 667px;
+  color: #000000;
+}
+
+.defaulttag {
+  text-align: right;
+  margin-left: auto;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #36a9cc;
+}
+.pricedetails {
+  margin-top: 0px !important;
+}
+
+.cart2_removebutton {
+  width: 91.18px;
+  height: 32.21px;
+  margin: 6px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 675px) {
+  .cart2_name {
+    width: auto;
+  }
+
+  .cart2_addaddress {
+    width: auto;
+  }
+}
+
+.cartModalButtons {
+  color: #ffffff;
+  background-color: #36a9cc;
+  border-color: #36a9cc;
+  border-radius: 3px;
+  padding: 3px 7px;
+}
+
+.cartModalButtons:hover,
+.cartModalButtons:focus {
+  color: #36a9cc;
+  background-color: #ffffff;
+  border-color: #36a9cc;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cart2_addresscard,
+  .cart2_name,
+  .cart2_addaddress {
+    max-width: 450px;
+  }
+  .defaulttag {
+    max-width: 400px;
+    margin-left: 0;
+  }
+  .cart2_addresscard {
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c163d143.chunk.css",
+    "main.js": "/static/js/main.d32e85cd.chunk.js",
+    "main.js.map": "/static/js/main.d32e85cd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bfca2edd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bfca2edd.js.map",
+    "static/css/2.a0fb21b0.chunk.css": "/static/css/2.a0fb21b0.chunk.css",
+    "static/js/2.929ac93e.chunk.js": "/static/js/2.929ac93e.chunk.js",
+    "static/js/2.929ac93e.chunk.js.map": "/static/js/2.929ac93e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5c54c66e65fc97dc749ccd1cf57d3c88.js": "/precache-manifest.5c54c66e65fc97dc749ccd1cf57d3c88.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a0fb21b0.chunk.css.map": "/static/css/2.a0fb21b0.chunk.css.map",
+    "static/css/main.c163d143.chunk.css.map": "/static/css/main.c163d143.chunk.css.map",
+    "static/js/2.929ac93e.chunk.js.LICENSE.txt": "/static/js/2.929ac93e.chunk.js.LICENSE.txt",
+    "static/media/Rectangle 154.png": "/static/media/Rectangle 154.24ff0fe7.png",
+    "static/media/dashboard.css": "/static/media/bg.ef3fa0c3.svg",
+    "static/media/cat.png": "/static/media/cat.a07c527b.png",
+    "static/media/doc.jpg": "/static/media/doc.55c1dbf6.jpg",
+    "static/media/dog.png": "/static/media/dog.d5ba5ce0.png",
+    "static/media/fc1.png": "/static/media/fc1.08eca246.png",
+    "static/media/fc2.png": "/static/media/fc2.067cd7cf.png",
+    "static/media/fc3.png": "/static/media/fc3.5e5ba6f8.png",
+    "static/media/fc4.png": "/static/media/fc4.ef598264.png",
+    "static/media/image 15.png": "/static/media/image 15.40bd769c.png",
+    "static/media/image 29.png": "/static/media/image 29.4049d939.png",
+    "static/media/image 35.png": "/static/media/image 35.2b7f6c38.png",
+    "static/media/image 36.png": "/static/media/image 36.f8b66c1c.png",
+    "static/media/image 360.png": "/static/media/image 360.473b80fb.png",
+    "static/media/rabbit.png": "/static/media/rabbit.5fbcf1a0.png",
+    "static/media/undraw_good_doggy_4wfq 1.png": "/static/media/undraw_good_doggy_4wfq 1.8bc1050f.png",
+    "static/media/vet_img.png": "/static/media/vet_img.4f2a3a6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfca2edd.js",
+    "static/css/2.a0fb21b0.chunk.css",
+    "static/js/2.929ac93e.chunk.js",
+    "static/css/main.c163d143.chunk.css",
+    "static/js/main.d32e85cd.chunk.js"
+  ]
+}

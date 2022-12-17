@@ -1,0 +1,335 @@
+body {
+  background-color: #e5e5e5 !important;
+  justify-content: center;
+  overflow-x: hidden;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+.bothflexbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 50px;
+  border: none !important;
+}
+.flexbox11 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 733.29px;
+  margin-bottom: 21px;
+  margin-left: 168.33px;
+
+  word-wrap: break-word;
+}
+
+.cartproductcard {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 29.92px 15.91px 17.14px 0px;
+  max-width: 733.29px;
+  /* max-height: 225.22px; */
+  flex-direction: column;
+}
+.embedded_cartproductcard > img {
+  width: 142.19px;
+  height: 142.19px;
+}
+.cartremovebuttonn {
+  /* width: 126.72px; */
+
+  border: none;
+  background-color: transparent !important;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 36.5px;
+  margin-right: 37px;
+  color: #000000;
+}
+.flexbox22 {
+  display: flex;
+  margin-left: 24.61px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 20px;
+
+  /* justify-content: flex-start; */
+}
+.coupons {
+  display: flex;
+  margin-bottom: 21.8px;
+  width: 375.13px;
+  /* height: 131.98px; */
+  padding: 17.03px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.pricedetails {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 17.03px;
+  width: 375.13px;
+
+  flex-direction: column;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.pricecategory {
+  width: 83px;
+  height: 21px;
+  color: #3f3f3f;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.pricecategorytotal {
+  width: 108px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.placeorderbutton {
+  width: 375.13px;
+  height: 40.86px;
+
+  background: #ff5352;
+  border-color: #ff5352;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.applybuttonn {
+  width: 103.94px;
+  height: 32.21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+
+  color: #ff5352;
+
+  border: 1px solid #ff5352;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.headingofflex2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 10px;
+  justify-content: center;
+  color: #000000;
+}
+.pricedetailssub {
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #3f3f3f;
+}
+
+.amount {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.label_price_flex {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 40px;
+  flex-wrap: wrap;
+}
+.price_part {
+  justify-content: flex-end;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 20px !important;
+}
+.applycouponstext {
+  text-align: right;
+  justify-content: center;
+  align-self: center;
+  margin-right: auto;
+}
+.embedded_cartproductcard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.embedded_cartproductcard .self {
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-left: 10px;
+}
+.self2 {
+  text-align: right;
+  margin-left: auto;
+}
+.columnembeddedcard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.linebtwbutton {
+  background: transparent;
+  border: none;
+}
+.cart_decreasebutton {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 2px 0px 0px 2px;
+}
+.embeddedflexforprices {
+  justify-content: right;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1311px) {
+  .flexbox11 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexbox22 {
+    justify-content: center !important;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    padding: 5px;
+  }
+}
+
+.cartimage {
+  width: 142.19px;
+  height: 142.19px;
+  margin-right: 28.51px;
+  margin-left: 10px;
+}
+
+.incresedecreasespan {
+  margin-top: 47px;
+}
+
+@media only screen and (max-width: 415px) {
+  /* .embedded_cartproductcard > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+
+  .cartimage {
+    width: 92.19px !important;
+    height: 92.19px !important;
+    margin-right: 10px;
+  }
+
+  .pricedetails {
+    padding: 12.03px;
+    width: 345.13px;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+  }
+  .cartproductcard {
+    width: 345.13px;
+  }
+
+  .coupons {
+    width: 345.13px;
+  }
+  .applybuttonn {
+    margin-left: 2px;
+    width: 83px;
+    align-self: center;
+    height: 32.2px;
+  }
+
+  .bothflexbox {
+    justify-content: center !important;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .toppath {
+    font-size: 12px;
+  }
+  .cartremovebuttonn {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .placeorderbutton {
+    width: 345.13px;
+  }
+  .incresedecreasespan {
+    margin-top: 13px;
+  }
+  .flexbox11 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 345.13px;
+  }
+}
+
+button,
+input {
+  overflow: hidden !important;
+}
+hr {
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.9rem !important;
+  border: 0;
+  width: 50%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-left: 0 !important;
+}

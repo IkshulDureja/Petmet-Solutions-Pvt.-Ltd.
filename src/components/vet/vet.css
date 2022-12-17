@@ -1,0 +1,63 @@
+.addSlot_h1 {
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.tile_vet {
+    width: 90%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.main-container {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5%;
+    padding-bottom: 0px;
+}
+
+.pink-btn {
+    background-color: #FF5352;
+    color: white;
+    border: none;
+    padding: 6px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.pink-btn:hover {
+    color: #FF5352;
+    background-color: white;
+    border: solid #FF5352;
+}
+
+.profile_container {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.profile_img {
+    height: 200px;
+    width: 200px;
+}
+
+.head {
+    font-weight: bold;
+}
+
+/*--------------Edit Profile---------*/
+
+.editProfile {
+    background-color: white;
+    padding: 30px;
+}
+
+.editProfile_form {
+    padding: 20px;
+}

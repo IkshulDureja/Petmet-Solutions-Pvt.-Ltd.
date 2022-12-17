@@ -1,0 +1,31 @@
+.mainlogocheckout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.checkoutbutton {
+  background: #36a9cc !important;
+  border-radius: 7px !important;
+  color: white !important;
+  width: 68.81px !important;
+  height: 36px !important;
+  margin-top: 24px !important;
+  margin-left: 8px !important;
+}
+
+/* .checkoutbutton2 {
+  background-color: transparent !important;
+  color: #36a9cc !important;
+  border-radius: 7px !important;
+  border: solid 1px #36a9cc !important;
+} */
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #36a9cc !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #36a9cc !important ;
+}
